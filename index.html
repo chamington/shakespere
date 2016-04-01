@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+<title>Champernowne's constant</title>
+<script src="jquery.js"></script>
+<script>
+var a= Array("a","b","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","A","B","C","D","E","G","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"," ","-",",",".","\"","\'",":",";","?","!","(","*","+","~","[","]","{","}","\\");
+
+setInterval(function(){
+	var b= a[Math.floor(Math.random()*a.length)];
+	$("p").append(b);
+});
+</script>
+</head>
+<body style="word-wrap: break-word">
+<p></p>
+</body>
+</html>
